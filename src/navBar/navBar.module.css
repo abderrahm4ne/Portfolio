@@ -1,5 +1,66 @@
+:root{
+    --grey : #d4abab;
+    --lighterGrey : #f2d2d2;
+}
+
 .navBar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+    justify-self: center;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px white;
+}
+
+.filterd{
+    filter: blur(2);
+}
+
+.navBar div{
+    background-color: transparent;
+    /* border: 1px solid black;
+    */
+}
+
+.left{
+    font-size: 1.3rem;
+    color: var(--grey);
+    margin-left: 23px;
+    
+}
+
+.middle{
+    display: flex;
     flex-direction: row;
-    background-color: wheat;
+    column-gap: 20px;
+    font-size: 1.2rem;
+}
+
+.middle div a{
+    color: var(--lighterGrey);
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 22px;
+    column-gap: 15px;
+    position: relative;
+}
+
+.darkMode{
+    position: inherit;
+    right: 45px;
+}
+
+.break{
+    width: 1px;
+    height: 30px;
+    border: 1px solid var(--lighterGrey);
+    position: relative;
+    right: 30px;
 }

@@ -10,10 +10,10 @@ const DarkMode = () => {
       fill="#000000"
     >
       <g strokeWidth="0"></g>
-      <g strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="0.096"></g>
+      <g strokeLinecap="round" strokeLinejoin="round" stroke="#ffffff" strokeWidth="0.096"></g>
       <g>
         <defs>
-          <style>{`.c { fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; }`}</style>
+          <style>{`.c { fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; }`}</style>
         </defs>
         <path
           className="c"
