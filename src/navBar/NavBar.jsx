@@ -10,44 +10,34 @@ function NavBar(){
 
 
     return(
-        <>
-            
-            <div className="left">
-            AbderrahmaneCoding();
+        <div className={styles.navBar}>
+            <div className={styles.left}>
+                AbderrahmaneCoding();
             </div>
-            <div className="middle">
-                <>
-                <div class="menus">
-                <div class="home-page"><a href="#home" >HOME<div class="underline"></div></a>
-                </div>
-                <div class="portfolio-page"><a href="#skills">SKILLS
-                <div class="underline"></div></a></div>
-                <div class="skills-page"><a href="#portfolio"><div>PORTFOLIO</div><div class="underline"></div></a>
+            <div className={styles.middle}>
+                <div className={styles.menus}>
+                    <div className={styles.homePage}><a href="#home">HOME<div className={styles.underline}></div></a></div>
+                    <div className={styles.portfolioPage}><a href="#skills">SKILLS<div className={styles.underline}></div></a></div>
+                    <div className={styles.skillsPage}><a href="#portfolio"><div>PORTFOLIO</div><div className={styles.underline}></div></a></div>
                 </div>
             </div>
-                </>
-            </div>
-            <div className="right">
-                <div className="icons">
-                    <>
-                        <div className="dark-mode">
-                            <DarkMode/>
-                        </div>
-                        <div className="github">
-                            <GitHub/>
-                        </div>
-                        <div className="discord">
-                            <Discord/>
-                        </div>
-                        <div className="instagram">
-                            <Instagram/>
-                        </div>
-                    </>
+            <div className={styles.right}>
+                <div className={styles.icons}>
+                    <div className={styles.darkMode}>
+                        <DarkMode />
+                    </div>
+                    <div className={styles.github}>
+                        <GitHub />
+                    </div>
+                    <div className={styles.discord}>
+                        <Discord />
+                    </div>
+                    <div className={styles.instagram}>
+                        <Instagram />
+                    </div>
                 </div>
             </div>
-            
-        </>
-
+        </div>
     )
 }
 
