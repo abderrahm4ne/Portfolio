@@ -10,7 +10,6 @@ function NavBar(){
 
 
     return(
-        <div className={styles.filterd}>
         <div className={styles.navBar}>
             <div className={styles.left}>
                 AbderrahmaneCoding();
@@ -35,7 +34,6 @@ function NavBar(){
                         <Instagram />
                 </div>
             </div>
-        </div>
         </div>
     )
 }
