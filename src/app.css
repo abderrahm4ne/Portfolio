@@ -5,10 +5,10 @@
 }
 
 body{
-    background-color: rgb(4, 26, 56);
+    background-color: #041a38;
     font-family: Inria Sans;
-
-}
+    height: 200vh;
+}   
 
 a{
     text-decoration: none;
